@@ -13,10 +13,10 @@ import org.springframework.web.client.RestTemplate;
 @EnableDiscoveryClient
 @SpringBootApplication*/
 @SpringCloudApplication
-public class EurekaConsumerRibbonApplication {
+public class ConsumerHystrixApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EurekaConsumerRibbonApplication.class, args);
+		SpringApplication.run(ConsumerHystrixApplication.class, args);
 	}
 
 	@Bean
